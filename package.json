@@ -1,6 +1,6 @@
 {
   "name": "@gigglebot/wrapper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A library to use giggle API features",
   "main": "index.js",
   "scripts": {
