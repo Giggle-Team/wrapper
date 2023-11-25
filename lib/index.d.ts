@@ -2,6 +2,7 @@ import { SocketManager } from "./managers/socket";
 interface Props {
     reconnect_timeout?: number;
     connect_socket?: boolean;
+    base_url?: string;
 }
 export declare class GiggleAPI {
     readonly api_key: string;

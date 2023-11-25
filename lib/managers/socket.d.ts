@@ -10,7 +10,6 @@ declare const SocketManager_base: new () => TypedEmitter<Events>;
 export declare class SocketManager extends SocketManager_base {
     private client;
     private ws;
-    private baseUrl;
     constructor(client: GiggleAPI);
     connect(): void;
 }
