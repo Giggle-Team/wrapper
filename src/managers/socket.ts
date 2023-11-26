@@ -20,7 +20,7 @@ export class SocketManager extends (EventEmitter as new () => TypedEmitter<Event
    connect() {
       const url =
          this.client.props?.base_url ??
-         "wss://api-test.gigglebot.website/ws/connect";
+         "wss://giggle-api.squareweb.app/ws/connect";
       try {
          this.ws = new WebSocket(url, {
             headers: {

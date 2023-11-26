@@ -1,39 +1,39 @@
 {
-  "name": "@gigglebot/wrapper",
-  "version": "1.0.1",
-  "description": "A library to use giggle API features",
-  "main": "index.js",
-  "scripts": {
-    "test": "ts-node-dev test.ts",
-    "build": "tsc"
-  },
-  "engines": {
-    "node": ">=18.0.0"
-  },
-  "keywords": [
-    "api",
-    "giggle"
-  ],
-  "author": "Morty",
-  "license": "MIT",
-  "private": false,
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Giggle-Team/wrapper.git"
-  },
-  "bugs": {
-    "url": "https://github.com/Giggle-Team/wrapper/issues"
-  },
-  "homepage": "https://gigglebot.website",
-  "devDependencies": {
-    "@types/node": "^20.9.1",
-    "@types/ws": "^8.5.9",
-    "ts-node-dev": "^2.0.0",
-    "typescript": "^5.2.2"
-  },
-  "dependencies": {
-    "@gigglebot/wrapper": "^1.0.0",
-    "typed-emitter": "^2.1.0",
-    "ws": "^8.14.2"
-  }
+   "name": "@gigglebot/wrapper",
+   "version": "1.0.2",
+   "description": "A library to use giggle API features",
+   "main": "index.js",
+   "scripts": {
+      "test": "ts-node-dev test.ts",
+      "build": "tsc"
+   },
+   "engines": {
+      "node": ">=18.0.0"
+   },
+   "keywords": [
+      "api",
+      "giggle"
+   ],
+   "author": "Morty",
+   "license": "MIT",
+   "private": false,
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Giggle-Team/wrapper.git"
+   },
+   "bugs": {
+      "url": "https://github.com/Giggle-Team/wrapper/issues"
+   },
+   "homepage": "https://gigglebot.website",
+   "devDependencies": {
+      "@types/node": "^20.9.1",
+      "@types/ws": "^8.5.9",
+      "ts-node-dev": "^2.0.0",
+      "typescript": "^5.2.2"
+   },
+   "dependencies": {
+      "@gigglebot/wrapper": "^1.0.0",
+      "typed-emitter": "^2.1.0",
+      "ws": "^8.14.2"
+   }
 }

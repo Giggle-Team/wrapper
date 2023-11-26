@@ -1,7 +1,8 @@
 interface ProductArray {
    id: string;
    name: string;
-
+   quantity: number;
+   price: number;
    content: string;
 }
 
